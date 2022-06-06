@@ -79,6 +79,6 @@ void Game::main(bool &isRunning)
             foodX = rand() % window->getCols() * window->getPixels();
             foodY = rand() % window->getRows() * window->getPixels();
         }
-        SDL_Delay(100);
+        SDL_Delay(50);
     }
 }

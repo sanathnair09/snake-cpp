@@ -70,8 +70,8 @@ void Window::addRect(int x, int y, Color color)
     SDL_Rect rect;
     rect.x = x;
     rect.y = y;
-    rect.w = 50;
-    rect.h = 50;
+    rect.w = pixels;
+    rect.h = pixels;
 
     // clear();
     SDL_SetRenderDrawColor(renderer, r, g, b, 255);

@@ -15,7 +15,7 @@ private:
     SDL_Window *window;
     SDL_Renderer *renderer;
     int width, height, rows, cols;
-    const int pixels = 50;
+    const int pixels = 10;
 
 public:
     Window(int width, int height);
